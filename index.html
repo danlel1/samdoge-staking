@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SamDoge — Staking dApp (prépare)</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="icon" href="./logo.png" type="image/png" />
+  <style>
+    :root{ --brand:#F6A62D; --brand-dark:#d78500; }
+    body{min-height:100vh; background:linear-gradient(135deg,#0f172a 0%,#312e81 50%,#0f172a 100%); color:#fff}
+    .card{max-width:860px;margin:3rem auto;padding:2rem;border-radius:1.25rem;background:rgba(255,255,255,.06);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.12)}
+    .brand{color:var(--brand)}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="flex items-center gap-3">
+      <img src="./logo.png" alt="SamDoge" class="h-10 w-10 rounded-full"/>
+      <h1 class="text-2xl md:text-3xl font-extrabold">SamDoge <span class="brand">Staking</span></h1>
+    </div>
+
+    <p class="mt-3 text-white/90">
+      Ceci est la <strong>mini dApp</strong> de staking. Le widget arrive bientôt.
+      En attendant, vous pouvez acheter <a class="underline brand" href="https://pancakeswap.finance/swap?outputCurrency=0xca4bdeb1e713be6b50e3800e0cb0263852ebefd9&inputCurrency=USDT" target="_blank" rel="noreferrer">SDM/USDT sur PancakeSwap</a>.
+    </p>
+
+    <div class="mt-6 grid md:grid-cols-2 gap-4">
+      <div class="rounded-xl p-4 border border-white/15 bg-white/5">
+        <div class="text-white/70 text-sm">Adresse contrat</div>
+        <div class="font-mono break-all">0xca4bdeb1e713be6b50e3800e0cb0263852ebefd9</div>
+      </div>
+      <div class="rounded-xl p-4 border border-white/15 bg-white/5">
+        <div class="text-white/70 text-sm">Raccourcis</div>
+        <div class="mt-1 flex gap-4 flex-wrap">
+          <a class="underline brand" href="https://bscscan.com/token/0xca4bdeb1e713be6b50e3800e0cb0263852ebefd9" target="_blank" rel="noreferrer">BSCScan</a>
+          <a class="underline brand" href="https://pancakeswap.finance/swap?outputCurrency=0xca4bdeb1e713be6b50e3800e0cb0263852ebefd9&inputCurrency=USDT" target="_blank" rel="noreferrer">PancakeSwap</a>
+          <a class="underline brand" href="https://x.com/DogeSami" target="_blank" rel="noreferrer">Twitter/X</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8">
+      <!-- Zone où tu brancheras plus tard ton vrai widget Web3 -->
+      <div class="rounded-2xl p-8 border border-white/15 bg-white/5 text-center">
+        <p class="text-lg">Widget de staking <span class="brand">SDM</span> — bientôt disponible.</p>
+        <p class="text-white/70 text-sm mt-2">Connect wallet · Stake · Claim · APR</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
